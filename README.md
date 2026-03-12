@@ -20,7 +20,7 @@ new Terminal,
 
 run Terminal Frontend:
 
-new Terminal
+new Terminal,
  npm run dev
 
 Open Browser:
