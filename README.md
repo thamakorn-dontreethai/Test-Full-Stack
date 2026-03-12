@@ -26,6 +26,7 @@ new Terminal,
 Open Browser:
 
  http://localhost:5173 
+ 
 ** run Terminal ให้ทำงานพร้อมกันทั้ง2 
 
 Login:
