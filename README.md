@@ -41,8 +41,11 @@ Structure:
 
 Backend:
  config.php - CORS + สร้าง Database.db ,DB table users,Transactions
+ 
  login.php - จัดการเกี่ยวกับการlogin ,ส่งToken ไปให้ React
+ 
  transactions.php - GET(ดึงรายการประวัติข้อมูลฝาก ถอน) POST(บันทึกรายการฝาก ถอน ลง DB) PUT(แก้ไขจำนวนเงิน) DELETE(ลบข้อมูลออกจาก DB) ระบบฝากถอน
+ 
  database.db - SQLite
 
 store:
@@ -50,12 +53,17 @@ store:
 
 Frontend:
  Components:
+ 
   DepositWithdraw.jsx - input จำนวนเงิน ,ฝาก/ถอน, แสดงเงินคงเหลือ
+  
   Login.jsx - หน้า login
+  
   Modal.jsx - popup กลางใช้ร่วมกันทุกที่
+  
   Transaction.jsx - แสดงประวัติรายการ ฝาก/ถอน ,แก้ไขจำนวนเงินฝากและลบรายการการถอนเงิน
 
 api.js - ตัวกลางระหว่าง React กับ PHP, เรียกPHP api
+
 app.jsx - Sidebar Layout Session Routing
 
 
